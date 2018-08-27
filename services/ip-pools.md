@@ -146,7 +146,7 @@ To remove a signing domain, the value passed in should be the empty string.
 
 | Field          | Type           | Description                                         | Required      |
 |----------------|----------------|-----------------------------------------------------|---------------|
-| name           | string         | Name of the IP Pool                                 | yes           |
+| name           | string         | Name of the IP Pool                                 | no           |
 | signing_domain | string         | Domain to use as the DKIM verified signing domain   | no            | 
 | fbl_signing_domain | string     | FBL Signing Domain for the pool | no       | To unassign a custom FBL signing domain, provide an empty string for this field's value |
 
